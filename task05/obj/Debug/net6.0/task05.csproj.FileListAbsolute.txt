@@ -1,0 +1,15 @@
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/bin/Debug/net6.0/task05
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/bin/Debug/net6.0/task05.deps.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/bin/Debug/net6.0/task05.runtimeconfig.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/bin/Debug/net6.0/task05.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/bin/Debug/net6.0/task05.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.csproj.AssemblyReference.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.AssemblyInfoInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.AssemblyInfo.cs
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.csproj.CoreCompileInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/refint/task05.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/task05.genruntimeconfig.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/task05/obj/Debug/net6.0/ref/task05.dll
