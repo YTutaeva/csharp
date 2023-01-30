@@ -7,13 +7,11 @@ Console.Clear();
 Console.Write("Введите число N ");
 int N = int.Parse(Console.ReadLine()!);
 
-int I = 1;
+int I = 2;
 
-while I <= N
+while (I <= N)
 {
-    if (I % 2 == 0)
-    {
-        Console.WriteLine($"{I} ");
-        I++;
-    }
+        Console.Write($"{I} ");
+        K += 2;
+    
 }
