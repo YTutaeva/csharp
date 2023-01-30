@@ -12,6 +12,6 @@ int I = 2;
 while (I <= N)
 {
         Console.Write($"{I} ");
-        K += 2;
+        I += 2;
     
 }
