@@ -4,3 +4,8 @@
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
+
+Console.Clear();
+Console.Write("Введите любое число: ");
+
+int num = int.Parse(Console.ReadLine()!);

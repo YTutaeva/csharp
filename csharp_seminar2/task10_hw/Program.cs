@@ -4,3 +4,12 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+
+Console.Clear();
+Console.Write("Введите трехзначное число: ");
+
+int num = int.Parse(Console.ReadLine()!);
+
+int n2 = (num / 10) % 10;
+
+Console.WriteLine($"Вторая цифра от числа {num} => {n2}");

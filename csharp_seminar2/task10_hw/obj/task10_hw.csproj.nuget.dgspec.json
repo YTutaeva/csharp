@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yuliatutaeva/Documents/Учеба/csharp_seminar2/task10_hw/task10_hw.csproj": {}
+    "/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar2/task10_hw/task10_hw.csproj": {}
   },
   "projects": {
-    "/Users/yuliatutaeva/Documents/Учеба/csharp_seminar2/task10_hw/task10_hw.csproj": {
+    "/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar2/task10_hw/task10_hw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yuliatutaeva/Documents/Учеба/csharp_seminar2/task10_hw/task10_hw.csproj",
+        "projectUniqueName": "/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar2/task10_hw/task10_hw.csproj",
         "projectName": "task10_hw",
-        "projectPath": "/Users/yuliatutaeva/Documents/Учеба/csharp_seminar2/task10_hw/task10_hw.csproj",
+        "projectPath": "/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar2/task10_hw/task10_hw.csproj",
         "packagesPath": "/Users/yuliatutaeva/.nuget/packages/",
-        "outputPath": "/Users/yuliatutaeva/Documents/Учеба/csharp_seminar2/task10_hw/obj/",
+        "outputPath": "/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar2/task10_hw/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yuliatutaeva/.nuget/NuGet/NuGet.Config"
