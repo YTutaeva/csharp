@@ -9,3 +9,18 @@ Console.Clear();
 Console.Write("Введите любое число: ");
 
 int num = int.Parse(Console.ReadLine()!);
+
+if (num >99)
+{
+    while (num > 999)
+    {
+        num /= 10;
+    }
+
+    int result = num % 10;
+    Console.WriteLine(result);
+}
+else
+{
+    Console.WriteLine("третьей цифры нет");
+}

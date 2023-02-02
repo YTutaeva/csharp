@@ -1,0 +1,15 @@
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/bin/Debug/net6.0/task18_switch
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/bin/Debug/net6.0/task18_switch.deps.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/bin/Debug/net6.0/task18_switch.runtimeconfig.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/bin/Debug/net6.0/task18_switch.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/bin/Debug/net6.0/task18_switch.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.csproj.AssemblyReference.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.AssemblyInfoInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.AssemblyInfo.cs
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.csproj.CoreCompileInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/refint/task18_switch.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/task18_switch.genruntimeconfig.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar3/task18_switch/obj/Debug/net6.0/ref/task18_switch.dll
