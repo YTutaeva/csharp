@@ -13,10 +13,6 @@ int a = 1;
 
 while (a <= N)
 {
-    
-    // Console.Write($"{a * a} ");
-    // a++;
-
     Console.Write($"{Math.Pow(a,3)}");
     if (a != N)
     {
