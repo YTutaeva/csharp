@@ -3,20 +3,20 @@
 // 82 -> 10
 // 9012 -> 12
 
-int SumOfNumber(int Number);
+Console.Clear();
+
+int SumNumbers(int n)
 {
     int sum = 0;
-    int Number = 0;
-    
-    for (int i = 1; i <= Number; i++)
+    for (int i = 1; i <= n; i++)
     {
-        sum += i;
+        sum += n%10;
+        n /= 10;
     }
     return sum;
 }
-Console.Clear();
 
 Console.Write("Введите число: ");
 int N = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Сумма цифр числа {N} равна {SumOfNumber(N)}");
+Console.WriteLine($"Сумма цифр числа {N} равна {SumNumbers(N)}");
