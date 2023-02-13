@@ -4,56 +4,43 @@
 
 Console.Clear();
 
-double[] GetArray(int size)
+double[] GetArray(int size, double MinValue, double MaxValue)
 {
     double[] numbers = new double[size];
 
     for (int i = 0; i < size; i++)
     {
-        numbers[i] = new Random().Next(100, 1000);
+        numbers[i] = new Random().NextDouble() * (MaxValue - MinValue) + MinValue;
     }
     return numbers;
 }
 
+double FindMax(double[] array)
+{
+    double max = array[0];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] > max)
+        {
+            max = array[i];
+        }
+    }
+    return max;
+}
 
-// Console.WriteLine("Введите размер массива  ");
-// int size = Convert.ToInt32(Console.ReadLine());
-// double[] numbers = new double[size];
-// FillArrayRandomNumbers(numbers);
-// Console.WriteLine("массив: ");
-// PrintArray(numbers);
-// double min = Int32.MaxValue;
-// double max = Int32.MinValue;
-
-// for (int z = 0; z < numbers.Length; z++)
-// {
-//     if (numbers[z] > max)
-//         {
-//             max = numbers[z];
-//         }
-//     if (numbers[z] < min)
-//         {
-//             min = numbers[z];
-//         }
-// }
-
-// Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
-// Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
-
-// void FillArrayRandomNumbers(double[] numbers)
-// {
-//     for(int i = 0; i < numbers.Length; i++)
-//         {
-//             numbers[i] = Convert.ToDouble(new Random().Next(100,1000)) / 100;
-//         }
-// }
-// void PrintArray(double[] numbers)
-// {
-//     Console.Write("[ ");
-//     for(int i = 0; i < numbers.Length; i++)
-//         {
-//             Console.Write(numbers[i] + " ");
-//         }
-//     Console.Write("]");
-//     Console.WriteLine();
-// }
+double FindMin(double[] array)
+{
+    double min = array[0];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] < min)
+        {
+            min = array[i];
+        }
+    }
+    return min;
+}
+double[] array = GetArray(5, 1, 100);
+Console.WriteLine(string.Join(", ", array));
+double MaxMin = FindMax(array) - FindMin(array);
+Console.WriteLine($"{MaxMin}"!);
