@@ -1,0 +1,15 @@
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/bin/Debug/net6.0/task42
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/bin/Debug/net6.0/task42.deps.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/bin/Debug/net6.0/task42.runtimeconfig.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/bin/Debug/net6.0/task42.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/bin/Debug/net6.0/task42.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.csproj.AssemblyReference.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.AssemblyInfoInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.AssemblyInfo.cs
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.csproj.CoreCompileInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/refint/task42.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/task42.genruntimeconfig.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/csharp_seminar6/task42/obj/Debug/net6.0/ref/task42.dll
