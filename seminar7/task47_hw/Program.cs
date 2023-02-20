@@ -5,3 +5,36 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
+double[,] GetArray(int m, int n, minValue, maxValue)
+{
+    double[,] result = new double[m, n];
+    for (int i = 0; i < m; i++)
+    {
+        for (int j = 0; j < n; i++)
+        {
+            result[i, j] = new Random().NextDouble(minValue, maxValue);
+        }
+    }
+    return result;
+}
+
+
+void PrintArray(double[,] inArray)
+{
+    for (int i = 0; i < inArray.GetLength(0); i++)
+    {
+        for (int j = 0; j < inArray.GetLength(1); j++)
+        {
+            Console.Write($"{inArray[i, j]}\t ");
+        }
+        Console.WriteLine();
+    }
+}
+
+Console.Clear();
+Console.Write("row = ");
+double row = double.Parse(Console.ReadLine()!);
+Console.Write("col = ");
+double col = double.Parse(Console.ReadLine()!);
+double[,] array2D = GetArray(row, col, -10, 10);
+PrintArray(array2D);
