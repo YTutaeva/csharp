@@ -2,8 +2,6 @@
 // которых оба индекса чётные, и замените эти элементы на их
 // квадраты.
 
-Console.Clear();
-
 int[,] GetArray(int m, int n, int minValue, int maxValue) 
 {
     int[,] result = new int[m, n];

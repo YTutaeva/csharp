@@ -35,21 +35,35 @@ void PrintArray(int[,] inArray)
 }
 
 
-int FindArifmeticAverage(int[,] array2d)
+string FindArifmeticAverage(int[,] inArray2d)
 {
-    int result = 0;
-    j = 0;
-    for (int i = 0; i <= j; j+1)
+    string result = "Среднее арифметическое каждого столбца: ";
+    double sum;
+    double average;
+    for (int i = 0; i < inArray2d.GetLength(1); i++)
     {
-        result += array2d[i, j] + array2d[i, j+1] + array2d[i, j+2]
+        sum = 0;
+        for (int j = 0; j < inArray2d.GetLength(0); j++)
+        {
+            sum += inArray2d[j, i];
+        }
+        average = sum / inArray2d.GetLength(0);
+        result += $"{average:f1}";
+        if (i != inArray2d.GetLength(1) - 1) result += "; ";
+        else result += ".";
     }
     return result;
+
 }
 
 Console.Clear();
 
-int[,] myArray = GetArray(3, 4, 1, 9);
-PrintArray(myArray);
-int result = FindArifmeticAverage(myArray);
-Console.WriteLine();
-Console.WriteLine(result);
+Console.Write("Введите число строк в двумерном массиве: ");
+int rows = int.Parse(Console.ReadLine()!);
+
+Console.Write("Введите число столбцов в двумерном массиве: ");
+int columns = int.Parse(Console.ReadLine()!);
+
+int[,] array2D = GetArray(rows, columns, 1, 10);
+PrintArray(array2D);
+Console.WriteLine(FindArifmeticAverage(array2D));

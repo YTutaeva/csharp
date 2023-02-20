@@ -5,7 +5,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-double[,] GetArray(int m, int n, minValue, maxValue)
+double[,] GetArray(int m, int n, double minValue, double maxValue)
 {
     double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
@@ -33,8 +33,10 @@ void PrintArray(double[,] inArray)
 
 Console.Clear();
 Console.Write("row = ");
-double row = double.Parse(Console.ReadLine()!);
-Console.Write("col = ");
-double col = double.Parse(Console.ReadLine()!);
-double[,] array2D = GetArray(row, col, -10, 10);
+int row = int.Parse(Console.ReadLine()!);
+Console.Write("column = ");
+int column = int.Parse(Console.ReadLine()!);
+
+double[,] array2D = GetArray(row, column, -10, 10);
+Console.WriteLine();
 PrintArray(array2D);
