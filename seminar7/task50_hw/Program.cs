@@ -19,7 +19,6 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
             result[i, j] = new Random().Next(minValue, maxValue + 1);
         }
     }
-
     return result;
 }
 
@@ -37,6 +36,7 @@ void PrintArray(int[,] inArray)
 
 string GetElementofArray(int m, int n, int[,] inArray)
 {
+    string result;
     bool hasElement = m <= inArray.GetLength(0) - 1 && n <= inArray.GetLength(1) - 1;
     if (hasElement)
     {

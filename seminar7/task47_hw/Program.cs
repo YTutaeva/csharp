@@ -12,7 +12,7 @@ double[,] GetArray(int m, int n, double minValue, double maxValue)
     {
         for (int j = 0; j < n; i++)
         {
-            result[i, j] = new Random().NextDouble(minValue, maxValue);
+            result[i, j] = new Random().NextDouble();
         }
     }
     return result;
