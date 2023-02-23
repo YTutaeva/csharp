@@ -1,0 +1,15 @@
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/bin/Debug/net6.0/task68_hw
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/bin/Debug/net6.0/task68_hw.deps.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/bin/Debug/net6.0/task68_hw.runtimeconfig.json
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/bin/Debug/net6.0/task68_hw.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/bin/Debug/net6.0/task68_hw.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.csproj.AssemblyReference.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.AssemblyInfoInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.AssemblyInfo.cs
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.csproj.CoreCompileInputs.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/refint/task68_hw.dll
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.pdb
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/task68_hw.genruntimeconfig.cache
+/Users/yuliatutaeva/Documents/Учеба/csharp/seminar9/task68_hw/obj/Debug/net6.0/ref/task68_hw.dll
