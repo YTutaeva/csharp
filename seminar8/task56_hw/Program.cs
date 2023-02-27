@@ -29,10 +29,32 @@ void PrintArray(int[,] inArray)
     }
 }
 
-int FindMinSumofRows
+void CountMinimalSummInRow(int[,] Array)
 {
-
+    int MinimalRowSumm = 0;
+    int tempSumm = 0;
+    
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {
+        for (int j = 0; j < Array.GetLength(1); j++)
+        {
+            tempSumm = tempSumm + Array[i, j];
+        }
+            {
+                if (MinimalRowSumm == 0)
+                {
+                    MinimalRowSumm = tempSumm;
+                }
+                if (tempSumm < MinimalRowSumm)
+                {
+                    MinimalRowSumm = tempSumm;
+                }
+            }
+                    tempSumm = 0;
+    }
+                Console.WriteLine(@"Минимальная строчная сумма массива = {0}",  MinimalRowSumm);
 }
+
 
 Console.Clear();
 Console.Write("row = ");
@@ -43,5 +65,6 @@ int[,] array2D = GetArray(row, column, 0, 20);
 PrintArray(array2D);
 
 Console.WriteLine();
-SwapTwoRow(array2D);
-PrintArray(array2D);
+CountMinimalSummInRow(array2D);
+
+Console.WriteLine();

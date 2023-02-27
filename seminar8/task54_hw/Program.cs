@@ -29,23 +29,34 @@ void PrintArray(int[,] inArray)
     }
 }
 
-void SortDescendinginRows(int[,] sortArray)
+void SortArray(int[,] Array)
 {
-    for (int i = 0; i < sortArray.GetLength(0); i++)
-    { 
-        for (int j = 0; j < sortArray.GetLength(1); j++)  
-        {
-            int buff = 0;
-            if(sortArray[i,j] < sortArray[i,j+1])
-            {
-                buff = sortArray[i, j];
-                sortArray[i, j] = sortArray[i,j+1];
-                sortArray[i, j] = buff;
-            } 
-             
-        } 
-    }
+    bool IsSorted = true;
     
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {
+        for (int j = 0; j < Array.GetLength(1); j++)
+        {
+            if (IsSorted == false)
+            {   
+                if (i != 0)
+                {
+                    i = i - 1;
+                    IsSorted = true;
+                }
+            }
+            if (j != Array.GetLength(1)-1)
+            {
+                if (Array[i, j] < Array[i, j + 1])
+                {
+                    int buff = Array[i, j];
+                    Array[i, j] = Array[i, j + 1];
+                    Array[i, j + 1] = buff;
+                    IsSorted = false;
+                }
+            }
+        }
+    }
 }
 
 Console.Clear();
@@ -57,5 +68,5 @@ int[,] array2D = GetArray(row, column, -10, 10);
 PrintArray(array2D);
 
 Console.WriteLine();
-SortDescendinginRows(array2D);
+SortArray(array2D);
 PrintArray(array2D);
