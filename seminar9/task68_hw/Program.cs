@@ -30,3 +30,6 @@ Console.Write("Введите число N: ");
 int n = int.Parse(Console.ReadLine()!);
 
 Akkerman(m,n);
+
+Console.WriteLine();
+
